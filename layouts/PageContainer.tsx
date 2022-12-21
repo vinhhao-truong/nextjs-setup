@@ -11,7 +11,7 @@ const PageContainer: React.FC<ReactProps> = ({
     <div
       className={`${getClasses(
         className
-      )} px-3 md:px-8 lg:px-[9rem] block mx-auto max-w-[1440px] w-full `}
+      )} px-3 md:px-8 lg:px-[9rem] block mx-auto max-w-[1440px] w-full`}
       style={getStyles(style)}
     >
       {children}
